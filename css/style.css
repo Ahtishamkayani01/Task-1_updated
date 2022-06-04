@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+    height: auto;
+    width: 100%;
+
+}
+
+.bg {
+    background: linear-gradient(rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+}
+
+.container1 {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+
+
+}
+
+
+li,
+a {
+    font-size: 16px;
+    color: #edf0f1;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 2%;
+    background: linear-gradient(rgba(0, 40, 83, 1) 2%, rgb(23, 63, 122) 0%);
+
+
+}
+
+.points {
+    cursor: pointer;
+    height: 40px;
+}
+
+.nav_links {
+    list-style: none;
+    cursor: pointer;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+.nav_link1 li {
+    display: inline-block;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #FF4820;
+    ;
+}
+
+.nav_link1 li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_link1 li a:hover {
+    color: #FF4820;
+}
+
+.card {
+    background: linear-gradient(rgba(0, 40, 83, 1) 25%, rgb(2, 5, 12));
+    padding: 10px;
+    padding-left: 30px;
+    padding-top: 70px;
+    width: 78%;
+    height: 40%;
+    margin-top: 4%;
+    margin-left: 11%;
+    border-radius: 10px;
+
+}
+
+.card h1 {
+
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    background: black;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.card_time {
+    background: linear-gradient(90deg, #BBD2C5 0%, #536976 100%);
+
+    width: 20%;
+    height: auto;
+
+    margin-left: 75%;
+    position: relative;
+    bottom: 90px;
+
+}
+
+.card_time h3 {
+    font-size: 15px;
+    padding-top: 20px;
+    text-align: center;
+    color: #edf0f1;
+}
+
+.card_time h4 {
+    font-size: 10px;
+    padding-top: 10px;
+    text-align: center;
+
+
+}
+
+.button {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    background: #FF4820;
+    border: 2px solid #FF4820;
+    padding: 0 1rem;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.card1 {
+
+    background: linear-gradient(rgba(0, 40, 83, 1) 25%, rgb(2, 5, 12));
+    padding: 10px;
+    padding-left: 30px;
+    padding-top: 70px;
+    width: 37%;
+    height: 36%;
+    margin-top: 4%;
+    margin-left: 8px;
+    border-radius: 10px;
+}
+
+.card1 h1 {
+
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    background: black;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.card_time1 {
+    background: linear-gradient(90deg, #BBD2C5 0%, #536976 100%);
+    background-blend-mode: screen;
+    width: 50%;
+    height: auto;
+    margin-top: 8%;
+}
+
+.card_time1 h3 {
+    font-size: 15px;
+    padding-top: 10px;
+    text-align: center;
+    color: #edf0f1;
+}
+
+.card_time1 h4 {
+    font-size: 10px;
+    padding-top: 5px;
+    text-align: center;
+
+}
+
+
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+
+}
+
+.points1 {
+
+    cursor: pointer;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.points2 {
+
+    cursor: pointer;
+    height: 30px;
+    float: right;
+
+}
+
+.main {
+    width: 100%;
+}
